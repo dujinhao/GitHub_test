@@ -27,13 +27,13 @@ public class ClassifyActivity extends AppCompatActivity {
 //		ct_text.setText_classify("原理题");
 //		ct_text.setText_num_ques("5000题");
 		initData();
-		initDasss();
+		initDasssd();
 		mRecyclerView = (RecyclerView) findViewById(R.id.rc);
 		mRecyclerView.setLayoutManager(new GridLayoutManager(this,2));
 		mRecyclerView.setAdapter(mAdapter = new HomeAdapter());
 	}
 
-	private void initDasss() {
+	private void initDasssd() {
 	}
 
 	private void initData() {
